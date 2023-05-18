@@ -1,0 +1,10 @@
+TODO List : 
+ - Timer counting down from 250 seconds to 0
+ - Leaderboard (with past scores)
+ - The ability to enter your name every time you beat a previous score
+ - Fix background
+ - Add music
+    - Ideas so far : Tetris song (fits only after the timer is implemented)
+
+Thank you for contributing!
+Please feel free to edit your username / name into the special thanks list of the README.md file

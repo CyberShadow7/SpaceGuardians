@@ -4,7 +4,7 @@ import math
 
 ###
 # All rights reserved for the images used in this game.
-# Please find comment snippets in this code and the licenses included in the same folder as this game.
+# Please find comment snippets in this code and the licenses included in the Licenses folder.
 ###
 
 
@@ -16,27 +16,27 @@ screen = pygame.display.set_mode((900, 750))
 
 # license-alien-planet-...
 # Background
-bg = pygame.image.load('bg_space.jpg')
+bg = pygame.image.load('Icons/bg_space.jpg')
 
 # Title and Icon
-pygame.display.set_caption("Python Invaders")
+pygame.display.set_caption("Space Guardians")
 # Icon made from <a href="https://www.flaticon.com/free-icons/space-invaders" title="space invaders icons">Space invaders icons created by Freepik - Flaticon</a>
 # Icon made from <a href="https://www.flaticon.com/free-icons/space-invaders" title="space invaders icons">Space invaders icons created by Smashicons - Flaticon</a>
-ico = pygame.image.load('icon2.png')
+ico = pygame.image.load('Icons/icon2.png')
 pygame.display.set_icon(ico)
 
 # Score
 score_val = 0
-font = pygame.font.Font('Sunny Spells.ttf', 40)
+font = pygame.font.Font('Fonts/Sunny Spells.ttf', 40)
 txtX = 10
 txtY = 10
 
 # Game Over text
-ovr_fnt = pygame.font.Font('ka1.ttf', 70)
+ovr_fnt = pygame.font.Font('Fonts/ka1.ttf', 70)
 
 
 # Player Icon
-playerIcon = pygame.image.load('spaceship.png')
+playerIcon = pygame.image.load('Icons/spaceship.png')
 playerX = 425
 playerY = 650
 
@@ -50,7 +50,7 @@ enemyDWN = []
 numEnemies = 6
 
 for i in range(numEnemies):
-    enemyIcon.append(pygame.image.load('enemy.png'))
+    enemyIcon.append(pygame.image.load('Icons/enemy.png'))
     enemyX.append(random.randint(0, 834))
     enemyY.append(random.randint(50, 100))
     # Movement of enemy
@@ -59,7 +59,7 @@ for i in range(numEnemies):
 
 # license_bullet.pdf
 # Bullet
-bullIcon = pygame.image.load('bullet.png')
+bullIcon = pygame.image.load('Icons/bullet.png')
 bulletX = 0
 bulletY = playerY
 bulletUP = 3
