@@ -1,0 +1,8 @@
+*.py linguist-language=Python
+*.Python linguist-detectable=true
+*.py linguist-detectable=true
+*.png linguist-detectable=false
+*.jpg linguist-detectable=false
+*.bmp linguist-detectable=false
+*.md linguist-detectable=false
+*.gif linguist-detectable=false
