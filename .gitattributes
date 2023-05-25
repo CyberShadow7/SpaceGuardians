@@ -7,3 +7,4 @@
 *.md linguist-detectable=false
 *.gif linguist-detectable=false
 *.txt linguist-detectable=false
+*.yaml linguist-detectable=false
