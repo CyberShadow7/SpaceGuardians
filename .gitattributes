@@ -6,3 +6,4 @@
 *.bmp linguist-detectable=false
 *.md linguist-detectable=false
 *.gif linguist-detectable=false
+*.txt linguist-detectable=false
